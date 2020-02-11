@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './widgets/bodySection.dart';
 
 class homeScreen extends StatelessWidget{
 
@@ -13,10 +14,12 @@ class homeScreen extends StatelessWidget{
             appBar: AppBar(
               title: Text("First Git App")
             ),
-            body: Center(
-              child: Text("First App")
+            body:Column(
+              children: <Widget>[
+                bodySection(),
+                ],
+              )
             ),
-          ),
       );
   }
 }
