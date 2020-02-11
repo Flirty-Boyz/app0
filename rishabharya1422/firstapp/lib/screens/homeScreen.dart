@@ -6,8 +6,8 @@ class homeScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context){
 
-      final barColor = const Color(0xFFEC4849);
-      final bgColor = const Color(0xAAEA425C);
+      final barColor = const Color(0xFFF3B431);
+      final bgColor = const Color(0xFFF9DDA4);
 
       return MaterialApp(
           title: "My First APP",
@@ -23,6 +23,8 @@ class homeScreen extends StatelessWidget{
               title: Text("New Sample App"),
               backgroundColor: barColor,
             ),
+
+            body: bodySection(),
             
             ),
       );
