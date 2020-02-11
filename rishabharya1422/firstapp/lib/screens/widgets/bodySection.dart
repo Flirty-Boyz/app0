@@ -13,6 +13,7 @@ class bodySection extends StatelessWidget{
       width: 240,
       fit: BoxFit.cover,)
       
-    ],);
+    ],
+    );
   }
 }

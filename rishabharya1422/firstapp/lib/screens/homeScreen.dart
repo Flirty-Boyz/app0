@@ -5,20 +5,19 @@ class homeScreen extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
+
+      final barColor = const Color(0xFFEC4849);
+      final bgColor = const Color(0xAAEA425C);
+
       return MaterialApp(
           title: "My First APP",
-          theme: ThemeData(
-            primaryColor: Colors.red[100]
-          ),
+          
           home: Scaffold(
+            backgroundColor: bgColor,
             appBar: AppBar(
-              title: Text("First Git App")
+              backgroundColor: barColor,
             ),
-            body:Column(
-              children: <Widget>[
-                bodySection(),
-                ],
-              )
+            
             ),
       );
   }
