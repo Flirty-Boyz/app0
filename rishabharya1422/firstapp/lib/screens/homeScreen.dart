@@ -13,8 +13,14 @@ class homeScreen extends StatelessWidget{
           title: "My First APP",
           
           home: Scaffold(
+            
             backgroundColor: bgColor,
+            floatingActionButton: FloatingActionButton(
+              child: Text("Press"),
+              onPressed: (){}),
+            floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
             appBar: AppBar(
+              title: Text("New Sample App"),
               backgroundColor: barColor,
             ),
             
