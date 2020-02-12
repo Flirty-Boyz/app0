@@ -8,7 +8,12 @@ class bodySection extends StatelessWidget{
     return Column(
       children: <Widget>[
         
-        
+         SafeArea(
+           child: Text(
+             "Hello World",
+             style: TextStyle(letterSpacing: 4, fontSize: 34, fontWeight: FontWeight.bold, color: Colors.white),
+             ) 
+           )
       
     ],
     );
