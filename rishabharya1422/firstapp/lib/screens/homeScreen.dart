@@ -6,7 +6,7 @@ class homeScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context){
 
-      final barColor = const Color(0xFFF3B431);
+      final barColor = const Color(0x9F74B0AF);
       final bgColor = const Color(0xFFF9DDA4);
 
       return MaterialApp(
@@ -17,7 +17,8 @@ class homeScreen extends StatelessWidget{
             backgroundColor: bgColor,
             floatingActionButton: FloatingActionButton(
               child: Text("Press"),
-              onPressed: (){}),
+              onPressed: (){}
+              ),
             floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
             appBar: AppBar(
               title: Text("New Sample App"),
