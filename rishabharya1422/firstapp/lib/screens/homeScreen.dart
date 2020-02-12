@@ -21,7 +21,7 @@ class homeScreen extends StatelessWidget{
               ),
             floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
             appBar: AppBar(
-              title: Text("New Sample App"),
+              title: Text("New App"),
               backgroundColor: barColor,
             ),
 

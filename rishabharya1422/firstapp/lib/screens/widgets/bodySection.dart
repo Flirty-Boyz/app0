@@ -11,7 +11,7 @@ class bodySection extends StatelessWidget{
          SafeArea(
            child: Text(
              "Hello World",
-             style: TextStyle(letterSpacing: 4, fontSize: 34, fontWeight: FontWeight.bold, color: Colors.white),
+             style: TextStyle(letterSpacing: 9, fontSize: 34, fontWeight: FontWeight.bold, color: Colors.white),
              ) 
            )
       
